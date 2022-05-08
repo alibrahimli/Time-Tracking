@@ -1,0 +1,167 @@
+@import "points";
+html{
+  font-size: 62.5%;
+}
+body{
+  background-color: hsl(226, 43%, 10%);
+  font-family: 'Rubik', sans-serif;
+}
+.container{
+
+  width: 88%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:2.2rem;
+
+}
+.menu-card{
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 1.6rem;
+  width: 100%;
+}
+.card-report{
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 1.6rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap:1.8rem;
+  }
+img{
+      width: 26%;
+      max-width: 130px;
+      border: 3px solid white;
+      border-radius: 50%;
+    }
+    .report{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap:0.4rem;
+
+    }
+    p{
+      color: hsl(236, 100%, 87%);
+      font-size: 1.5rem;
+    }
+    .name{
+      color: white;
+      font-size: 2.4rem;
+      font-weight: 300;
+
+    }
+    .menu{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 2.5rem;
+    }
+    .menu-link{
+      color: hsl(235, 45%, 61%);
+      font-size: 1.8rem;
+      cursor: pointer;
+
+    }
+    .menu-link:hover{
+      color: white;
+    }
+    .menu-active{
+      color: white;
+    }
+    .regular-card{
+      width: 100%;
+      border-radius: 1.6rem;
+      background-repeat: no-repeat;
+      background-position: 92% -1rem;
+    }
+    .property-card{
+      background-color: hsl(235, 46%, 20%);
+      margin-top: 4rem;
+      border-radius: 1.6rem;
+      padding: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap:0.8rem;
+
+    }
+    .property-card:hover{
+      background-color: hsl(236,41%,34%);
+    }
+    .row{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+
+
+
+    }
+    .title{
+      color: white;
+      font-size: 1.8rem;
+      font-weight: 500;
+    }
+    .points{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+}
+    .point{
+      background-color: hsl(236, 100%, 87%);
+      width: 0.5rem;
+      height: 0.5rem;
+      border-radius: 50%;
+      margin: 0.2rem;
+    }
+  .point:hover{
+    background-color: white;
+  }
+    .row-2{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .hours{
+      color: white;
+      font-size: 2rem;
+      font-weight: 300;
+    }
+    .description{
+      color: hsl(236, 100%, 87%);
+      font-size: 1.5rem;
+    }
+    .work{
+      background-color: hsl(15, 100%, 70%);
+      background-image: url(images/icon-work.svg);
+    }
+    .play{
+      background-color: hsl(195, 74%, 62%);
+      background-image: url(images/icon-play.svg);
+    }
+    .study{
+      background-color: hsl(348, 100%, 68%);
+      background-image: url(images/icon-study.svg);
+    }
+    .exercise{
+      background-color: hsl(145, 58%, 55%);
+      background-image: url(images/icon-exercise.svg);
+    }
+    .social{
+      background-color: hsl(264, 64%, 52%);
+      background-image: url(images/icon-social.svg);
+    }
+    .selfcare{
+      background-color: hsl(43, 84%, 65%);
+      background-image: url(images/icon-self-care.svg);
+    }
